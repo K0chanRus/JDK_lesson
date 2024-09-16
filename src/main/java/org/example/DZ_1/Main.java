@@ -1,7 +1,7 @@
-package org.example;
+package org.example.DZ_1;
 
-import org.example.client.ClientWindow;
-import org.example.server.ServerWindow;
+import org.example.DZ_1.client.ClientWindow;
+import org.example.DZ_1.server.ServerWindow;
 
 //TIP To <b>Run</b> code, press <shortcut actionId="Run"/> or
 // click the <icon src="AllIcons.Actions.Execute"/> icon in the gutter.

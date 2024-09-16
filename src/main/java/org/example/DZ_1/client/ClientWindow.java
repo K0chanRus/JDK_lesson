@@ -1,6 +1,6 @@
-package org.example.client;
+package org.example.DZ_1.client;
 
-import org.example.server.ServerWindow;
+import org.example.DZ_1.server.ServerWindow;
 
 import javax.swing.*;
 import java.awt.*;

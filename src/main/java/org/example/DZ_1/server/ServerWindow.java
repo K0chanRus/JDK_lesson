@@ -1,11 +1,10 @@
-package org.example.server;
+package org.example.DZ_1.server;
 
 import javax.swing.*;
 import java.awt.*;
 import java.awt.event.ActionEvent;
 import java.awt.event.ActionListener;
 import java.io.*;
-import java.util.Arrays;
 
 public class ServerWindow extends JFrame {
     private static final int WINDOW_HEIGHT = 200;
