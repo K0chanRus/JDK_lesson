@@ -23,7 +23,7 @@ public class ClientWindow extends JFrame {
     JTextField chatField = new JTextField();
     JButton btnChat = new JButton("Send");
 
-    private boolean connectServer = false;
+    private boolean connectServer;
     ServerWindow serverWindow;
     public ClientWindow(ServerWindow serverWindow){
         setTitle("Client");

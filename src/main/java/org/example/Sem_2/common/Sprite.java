@@ -12,6 +12,11 @@ public class Sprite implements Interactable {
     protected float halfWidth;
     protected float halfHeight;
 
+    public Sprite(int x, int y) {
+        this.x = x;
+        this.y = y;
+    }
+
     protected float getLeft(){return  x - halfWidth;}
     protected  void setLeft(float left){x = left + halfWidth;}
     protected float getRight(){return  x + halfWidth;}
@@ -24,8 +29,7 @@ public class Sprite implements Interactable {
     protected float getWidth(){return 2f * halfWidth;}
     protected float getHeight(){return 2f * halfHeight;}
 
-
-     public void update(MainConvas convas, float deltaTime){}
+    public void update(MainConvas convas, float deltaTime){}
 
     public void render(MainConvas convas, Graphics g){}
 }

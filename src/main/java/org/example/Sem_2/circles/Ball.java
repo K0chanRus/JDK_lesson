@@ -12,12 +12,13 @@ public class Ball extends Sprite {
     private float vX;
     private float vY;
 
-    Ball(){
-        halfHeight = 20 +(float) (Math.random() * 50f);
+    Ball(int x, int y){
+        super(x, y);
+        halfHeight = 20 + rnd.nextFloat(50);
         halfWidth = halfHeight;
         color = new Color(rnd.nextInt());
-        vX = 100f + (float) (Math.random() * 200f);
-        vY = 100f + (float) (Math.random() * 200f);
+        vX = 100 + rnd.nextFloat(200);
+        vY = 100 + rnd.nextFloat(200);
     }
     @Override
     public void update(MainConvas convas, float deltaTime){
